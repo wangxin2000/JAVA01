@@ -7,5 +7,9 @@ public class test2 {
         StringJoiner sj = new StringJoiner(",","[","]");
         sj.add("aaa").add("bbb");
         System.out.println(sj);
+        int len = sj.length();
+        System.out.println(len);
+        String s = sj.toString();
+        System.out.println(s);
     }
 }
